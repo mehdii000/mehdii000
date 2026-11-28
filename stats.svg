@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="344" viewBox="0 0 840 344" role="img" aria-label="GitHub stats for mehdii000">
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace; }
+  .sans { font-family: 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; }
+  .num { font-size: 26px; font-weight: 700; fill: #1f2328; }
+  .lbl { font-size: 10.5px; letter-spacing: .08em; fill: #59636e; }
+  .ttl { font-size: 13px; font-weight: 600; fill: #0f8f78; }
+  .sm  { font-size: 11px; fill: #59636e; }
+  .ln  { font-size: 12px; fill: #1f2328; }
+  .fade { opacity: 0; animation: fade .7s ease forwards; }
+  .draw { stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: draw 2.2s ease forwards .4s; }
+  .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes grow { to { transform: scaleX(1); } }
+</style>
+<defs>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1dc7a5" stop-opacity=".35"/><stop offset="1" stop-color="#1dc7a5" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="1" cy="0" r="1"><stop offset="0" stop-color="#1dc7a5" stop-opacity=".14"/><stop offset="1" stop-color="#1dc7a5" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="839" height="343" rx="14" fill="#ffffff" stroke="#0f8f7840"/>
+<rect x="1" y="1" width="838" height="342" rx="14" fill="url(#halo)"/>
+<text x="20" y="34" class="ttl">~/stats</text>
+<text x="820" y="34" class="sm" text-anchor="end">@mehdii000 · updated 28 Nov 2026</text>
+<g class="fade" style="animation-delay:0.00s"><rect x="20.0" y="50" width="152.0" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="20.0" y="62" width="3" height="52" rx="1.5" fill="#0f8f78"/><text x="36.0" y="94" class="num sans">1,218</text><text x="36.0" y="114" class="lbl">CONTRIBUTIONS</text></g>
+<g class="fade" style="animation-delay:0.08s"><rect x="182.0" y="50" width="152.0" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="182.0" y="62" width="3" height="52" rx="1.5" fill="#0f8f78"/><text x="198.0" y="94" class="num sans">0d</text><text x="198.0" y="114" class="lbl">CURRENT STREAK</text></g>
+<g class="fade" style="animation-delay:0.16s"><rect x="344.0" y="50" width="152.0" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="344.0" y="62" width="3" height="52" rx="1.5" fill="#0f8f78"/><text x="360.0" y="94" class="num sans">13d</text><text x="360.0" y="114" class="lbl">LONGEST STREAK</text></g>
+<g class="fade" style="animation-delay:0.24s"><rect x="506.0" y="50" width="152.0" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="506.0" y="62" width="3" height="52" rx="1.5" fill="#0f8f78"/><text x="522.0" y="94" class="num sans">20</text><text x="522.0" y="114" class="lbl">PUBLIC REPOS</text></g>
+<g class="fade" style="animation-delay:0.32s"><rect x="668.0" y="50" width="152.0" height="76" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="668.0" y="62" width="3" height="52" rx="1.5" fill="#0f8f78"/><text x="684.0" y="94" class="num sans">6</text><text x="684.0" y="114" class="lbl">STARS EARNED</text></g>
+<g class="fade" style="animation-delay:.3s"><rect x="20" y="150" width="500" height="182" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="34" y="172" class="ttl">contributions · last 52 weeks</text></g>
+<line x1="34" y1="298" x2="506" y2="298" stroke="#d0d7de"/>
+<polygon class="fade" style="animation-delay:1.2s" points="34,298 34.0,276.9 43.3,294.5 52.5,292.7 61.8,292.7 71.0,283.3 80.3,279.2 89.5,282.8 98.8,289.8 108.0,298.0 117.3,292.1 126.5,275.7 135.8,296.2 145.1,294.5 154.3,297.4 163.6,292.1 172.8,288.6 182.1,285.7 191.3,284.5 200.6,293.3 209.8,291.5 219.1,292.1 228.4,288.0 237.6,282.8 246.9,292.7 256.1,295.7 265.4,295.1 274.6,289.8 283.9,273.4 293.1,224.1 302.4,282.2 311.6,275.7 320.9,262.8 330.2,297.4 339.4,287.4 348.7,295.7 357.9,298.0 367.2,298.0 376.4,297.4 385.7,298.0 394.9,298.0 404.2,298.0 413.5,298.0 422.7,298.0 432.0,266.3 441.2,287.4 450.5,276.9 459.7,298.0 469.0,296.8 478.2,293.3 487.5,220.0 496.7,186.0 506.0,298.0 506,298" fill="url(#area)"/>
+<polyline class="draw" points="34.0,276.9 43.3,294.5 52.5,292.7 61.8,292.7 71.0,283.3 80.3,279.2 89.5,282.8 98.8,289.8 108.0,298.0 117.3,292.1 126.5,275.7 135.8,296.2 145.1,294.5 154.3,297.4 163.6,292.1 172.8,288.6 182.1,285.7 191.3,284.5 200.6,293.3 209.8,291.5 219.1,292.1 228.4,288.0 237.6,282.8 246.9,292.7 256.1,295.7 265.4,295.1 274.6,289.8 283.9,273.4 293.1,224.1 302.4,282.2 311.6,275.7 320.9,262.8 330.2,297.4 339.4,287.4 348.7,295.7 357.9,298.0 367.2,298.0 376.4,297.4 385.7,298.0 394.9,298.0 404.2,298.0 413.5,298.0 422.7,298.0 432.0,266.3 441.2,287.4 450.5,276.9 459.7,298.0 469.0,296.8 478.2,293.3 487.5,220.0 496.7,186.0 506.0,298.0" fill="none" stroke="#0f8f78" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle class="fade" style="animation-delay:2.4s" cx="506.0" cy="298.0" r="3.5" fill="#0f8f78"/>
+<text x="80.3" y="314" class="sm" text-anchor="middle">Jan</text>
+<text x="117.3" y="314" class="sm" text-anchor="middle">Feb</text>
+<text x="154.3" y="314" class="sm" text-anchor="middle">Mar</text>
+<text x="200.6" y="314" class="sm" text-anchor="middle">Apr</text>
+<text x="237.6" y="314" class="sm" text-anchor="middle">May</text>
+<text x="283.9" y="314" class="sm" text-anchor="middle">Jun</text>
+<text x="320.9" y="314" class="sm" text-anchor="middle">Jul</text>
+<text x="357.9" y="314" class="sm" text-anchor="middle">Aug</text>
+<text x="404.2" y="314" class="sm" text-anchor="middle">Sep</text>
+<text x="441.2" y="314" class="sm" text-anchor="middle">Oct</text>
+<text x="478.2" y="314" class="sm" text-anchor="middle">Nov</text>
+<g class="fade" style="animation-delay:.4s"><rect x="532" y="150" width="288" height="182" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><text x="546" y="172" class="ttl">top languages</text></g>
+<g class="fade" style="animation-delay:0.50s"><text x="546" y="198" class="ln">Java</text><text x="806" y="198" class="sm" text-anchor="end">36.4%</text><rect x="546" y="204" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:0.50s" x="546" y="204" width="94.6" height="4" rx="2" fill="#1dc7a5"/>
+<g class="fade" style="animation-delay:0.60s"><text x="546" y="222" class="ln">TypeScript</text><text x="806" y="222" class="sm" text-anchor="end">25.5%</text><rect x="546" y="228" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:0.60s" x="546" y="228" width="66.3" height="4" rx="2" fill="#3fa9f5"/>
+<g class="fade" style="animation-delay:0.70s"><text x="546" y="246" class="ln">Rust</text><text x="806" y="246" class="sm" text-anchor="end">16.9%</text><rect x="546" y="252" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:0.70s" x="546" y="252" width="43.9" height="4" rx="2" fill="#8b7cf6"/>
+<g class="fade" style="animation-delay:0.80s"><text x="546" y="270" class="ln">Python</text><text x="806" y="270" class="sm" text-anchor="end">11.6%</text><rect x="546" y="276" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:0.80s" x="546" y="276" width="30.2" height="4" rx="2" fill="#f2b84b"/>
+<g class="fade" style="animation-delay:0.90s"><text x="546" y="294" class="ln">Go</text><text x="806" y="294" class="sm" text-anchor="end">2.9%</text><rect x="546" y="300" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:0.90s" x="546" y="300" width="7.4" height="4" rx="2" fill="#ef6f8f"/>
+<g class="fade" style="animation-delay:1.00s"><text x="546" y="318" class="ln">C++</text><text x="806" y="318" class="sm" text-anchor="end">2.4%</text><rect x="546" y="324" width="260" height="4" rx="2" fill="#d0d7de"/></g><rect class="grow" style="animation-delay:1.00s" x="546" y="324" width="6.3" height="4" rx="2" fill="#5fd6bf"/>
+</svg>
